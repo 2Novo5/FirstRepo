@@ -5,5 +5,8 @@ def main():
 	print("Hello world !)
 	return 0
 
+def dummy_func():
+	return -1
+
 if __main__=='__main__':
 	main()

@@ -7,6 +7,7 @@ def main():
 	if img is None :
 		print("ERROR: Cannot open the image {}".format(img_path))
 		return -1
+	cv2.namedWindow("Image 1", cv2.XINDOW_NORMAL)
 	cv2.imshow("Image 1", img)
 	cv2.waitKey()
 	cv2.destroyAllWindows()
